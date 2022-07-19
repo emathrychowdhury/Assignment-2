@@ -1,0 +1,43 @@
+/* body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header styles */
+.head-part {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 1000px;
+    height: 500px;
+    justify-content: center;
+    margin: 30px 165px;
+    border-radius: 10px;
+}
+
+.head-live {
+    width: 50%;
+}
+
+.head-live h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.head-live p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.head-live button {
+    padding: 10px 30px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.head-img img {
+    width: 400px;
+    height: 450px;
+    margin-top: 50px;
+}
