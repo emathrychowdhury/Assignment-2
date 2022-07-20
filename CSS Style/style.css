@@ -30,10 +30,17 @@ body {
 }
 
 .head-live button {
-    padding: 10px 30px;
+    width: 120px;
+    height: 40px;
+    /* padding: 10px 30px; */
     background-color: #31932d;
     border-radius: 5px;
     color: #fff;
+    transition: width 2s ease-in-out 1s;
+}
+
+.head-live button:hover {
+    width: 400px;
 }
 
 .head-img img {
