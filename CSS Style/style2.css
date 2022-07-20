@@ -1,0 +1,34 @@
+/* main styles */
+.blog-option #upcoming-match {
+    background-color: #31932d;
+    color: #fff;
+}
+
+.flag {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.flag img {
+    width: 70px;
+}
+
+#match-title {
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.match-time {
+    font-size: 12px;
+    margin-left: 45px;
+}
+
+.blog-content {
+    border: 1px solid rgb(235, 235, 235);
+    width: 220px;
+    height: 180px;
+    border-radius: 8px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
