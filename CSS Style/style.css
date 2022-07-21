@@ -301,6 +301,10 @@ footer a {
         color: gray;
     }
 
+    .head-live button:hover {
+        width: 300px;
+    }
+
     .head-img {
         margin-top: 5%;
     }
