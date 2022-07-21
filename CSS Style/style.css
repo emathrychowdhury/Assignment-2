@@ -211,6 +211,11 @@ footer a {
         font-size: 25px;
     }
 
+    .head-live button:hover {
+        width: 250px;
+    }
+
+
     .head-img img {
         margin-top: 10%;
         margin-left: 40%;
