@@ -274,9 +274,9 @@ footer a {
 
 
 /* Responsive CSS for Tablet */
-@media screen and (min-width: 577px) and (max-width: 900px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
     .head-part {
-        height: 369px;
+        height: 363px;
     }
 
     .head-live {
