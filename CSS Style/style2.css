@@ -4,31 +4,44 @@
     color: #fff;
 }
 
+.blog a {
+    text-decoration: none;
+    color: black;
+}
+
+
 .flag {
     display: flex;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .flag img {
-    width: 70px;
+    width: 30%;
 }
 
-#match-title {
-    font-size: 15px;
-    margin-left: 35px;
+.match-title {
+    font-size: 20px;
+    text-align: center;
 }
 
 .match-time {
     font-size: 12px;
-    margin-left: 45px;
+    text-align: center;
+    color: gray;
 }
 
 .blog-content {
-    border: 1px solid rgb(235, 235, 235);
-    width: 220px;
     height: 180px;
-    border-radius: 8px;
-    margin-right: 15px;
-    margin-bottom: 20px;
+}
+
+.view-all {
+    display: none;
+}
+
+/* Responsive CSS */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .view-all {
+        display: block;
+    }
 }
